@@ -1,0 +1,25 @@
+.container-fluid{
+  background: #282c34;
+  height:100vh;
+  color: white;
+  font: bold 12px'lucida sans', 'trebuchet MS', 'Tahoma';
+}
+
+.scrollStyle {
+  height: 75vh;
+  font-size: calc(5px + 2vmin);
+  overflow-y: scroll;
+  margin: 10pt 0 0 0
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.form-control:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+.btn-primary:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
